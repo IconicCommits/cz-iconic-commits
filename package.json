@@ -1,0 +1,33 @@
+{
+  "name": "cz-iconic-commits",
+  "version": "0.1.0",
+  "description": "Commitizen adapter following the Iconic Commits specification.",
+  "main": "index.js",
+  "homepage": "https://github.com/IconicCommits/cz-iconic-commits",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IconicCommits/cz-iconic-commits.git"
+  },
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "keywords": [
+    "commitizen",
+    "cz",
+    "iconic",
+    "commits"
+  ],
+  "author": "Tzvi Melamed <tzvi@melamed.biz>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4",
+    "commitizen": "^4.3.1",
+    "longest": "^2.0.1",
+    "word-wrap": "^1.2.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./index.js"
+    }
+  }
+}
