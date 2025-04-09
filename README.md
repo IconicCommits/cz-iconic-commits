@@ -2,6 +2,11 @@
 
 [![Iconic Commits](https://img.shields.io/badge/Iconic%20Commits-0.1.0-%23ffdd67?style=for-the-badge)](https://github.com/IconicCommits/specification)
 
+status:
+![NPM Version](https://img.shields.io/npm/v/cz-iconic-commits?style=for-the-badge)
+![NPM Downloads](https://img.shields.io/npm/dm/cz-iconic-commits?style=for-the-badge)
+
+
 Part of the [Iconic Commits](https://github.com/IconicCommits/specification) family. Prompts for the [Iconic Commits](https://github.com/IconicCommits/specification) standard.
 
 ## Configuration
